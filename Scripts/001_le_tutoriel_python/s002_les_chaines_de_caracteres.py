@@ -49,7 +49,8 @@ print(word[-2:])        # for(i = len(word) - 2; i < len(word); i++)
 
 # l'affectation avec l'opérateur [] est impossible
 # il faut créer une nouvelle chaine
-# word[0] = 'p'  
+# >>> word[0] = 'p'        
+# renverra une erreur
 
 # Longueur d'une chaine
 print(len(word))

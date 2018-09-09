@@ -1,10 +1,5 @@
 import math
 
-def separator(line_break=False):
-    print("\n" if line_break else "","-*-*-*-*-*-*-*-*-*")
-
-print("##### EXERCICES ####", end="\n\n")
-
 # 5.1 Écrivez un programme qui convertisse en radians 
 # un angle fourni au départ en degrés, minutes, secondes.
 # 1 degré = 60 min , 1 mn = 60 sec 

@@ -1,8 +1,5 @@
 import sys
 
-def separator(line_break=False):
-    print("\n" if line_break else "","-*-*-*-*-*-*-*-*-*")
-
 # Les entiers sont codés sur 32 bits compris entre -2147483648 et +2147483647 
 # (enfin cette limite dépend de votre processeur 32 ou 64 bits)
 # Cependant en Python, un entier peut dépasser ces limitations,
@@ -16,9 +13,6 @@ while i <= 50:
     p = 2**i
     print("2^{0:d} => {1:d} =>".format(i, p), type(p))
     i += 1
-
-separator()
-
 
 
 # Déclaration et initialisation de nb à virgules flottantes

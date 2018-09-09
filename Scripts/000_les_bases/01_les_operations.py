@@ -1,5 +1,3 @@
-print("##### LES OPÉRATIONS ####", end="\n\n")
-
 print("addition : 5+3 = ",                    5+3)
 print("soustraction : 5-3 = ",                5-3)
 print("division en python 3 : 5/3 = ",        5/3) 

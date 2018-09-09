@@ -1,9 +1,6 @@
 def separator():
     print("-*-*-*-*-*-*-*-*-*")
 
-
-print("##### LES INSTRUCTIONS ####", end="\n\n")
-
 # test de l'instruction if elif et else
 a = 0
 if a > 0:

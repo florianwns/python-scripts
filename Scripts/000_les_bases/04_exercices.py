@@ -2,8 +2,6 @@ def separator(line_break=False):
     print("\n" if line_break else "","-*-*-*-*-*-*-*-*-*")
 
 
-print("##### EXERCICES ####", end="\n\n")
-
 # Écrivez un programme qui calcule le volume d’un parallélépipède rectangle 
 # dont sont fournis au départ la largeur, la hauteur et la profondeur.
 def volume_parallelepipede_rectangle(largeur, hauteur, profondeur):

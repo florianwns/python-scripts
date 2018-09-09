@@ -1,5 +1,3 @@
-print("##### LES VARIABLES ####", end="\n\n")
-
 a = b = 7
 c, d = 2, 3
 prenom = "frédéric"

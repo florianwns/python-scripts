@@ -1,3 +1,5 @@
+"""Exercices"""
+
 import math
 
 # 5.1 Écrivez un programme qui convertisse en radians 

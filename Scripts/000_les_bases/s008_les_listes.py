@@ -1,4 +1,6 @@
-#les élements d'une liste peuvent être variés
+"""Les listes"""
+
+# les élements d'une liste peuvent être variés
 liste = ["Bonjour", 3, 4.0, object]
 liste[1] += 2
 liste.append("steve")

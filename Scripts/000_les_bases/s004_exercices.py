@@ -1,3 +1,5 @@
+"""Exercices"""
+
 # Écrivez un programme qui calcule le volume d’un parallélépipède rectangle 
 # dont sont fournis au départ la largeur, la hauteur et la profondeur.
 def volume_parallelepipede_rectangle(largeur, hauteur, profondeur):

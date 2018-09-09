@@ -1,3 +1,5 @@
+"""Les types"""
+
 import sys
 
 # Les entiers sont codés sur 32 bits compris entre -2147483648 et +2147483647 

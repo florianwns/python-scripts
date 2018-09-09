@@ -1,3 +1,5 @@
+"""Les variables"""
+
 a = b = 7
 c, d = 2, 3
 prenom = "frédéric"
@@ -16,4 +18,4 @@ y = 3*a + b/0.2
 print(y, "=>", type(y))
 
 a, b = b, a     # echange de valeur sans passer par une variable c
-print(a,b)
+print(a, b)

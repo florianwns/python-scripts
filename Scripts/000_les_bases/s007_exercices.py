@@ -1,3 +1,5 @@
+"""Exercices"""
+
 import math
 
 # 5.6 Écrivez un script qui détermine si une chaîne contient ou non le caractère « e ».

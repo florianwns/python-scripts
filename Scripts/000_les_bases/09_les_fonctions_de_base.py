@@ -1,3 +1,8 @@
+"""Quelques fonctions de base
+
+Voici quelques fonctions de base pour la saisie au clavier
+"""
+
 from math import sqrt
 
 # print permet d'afficher n'importe quel nombre de valeurs passés en arguments

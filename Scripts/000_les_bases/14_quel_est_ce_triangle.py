@@ -1,9 +1,11 @@
-# Demander à l’utilisateur d’entrer trois longueurs AB, AC, BC. 
-# À l’aide de ces trois longueurs, déterminer s’il est possible de construire un triangle. 
-# Déterminer ensuite si ce triangle est rectangle, isocèle, équilatéral ou quelconque. 
-# Attention : un triangle rectangle peut être isocèle.
+"""Quel est donc ce triangle ???
 
-# Si BC² = AB² +AC² alors le triangle est rectange en A
+Demander à l’utilisateur d’entrer trois longueurs AB, AC, BC. 
+À l’aide de ces trois longueurs, déterminer s’il est possible de construire un triangle. 
+Déterminer ensuite si ce triangle est rectangle, isocèle, équilatéral ou quelconque. 
+Attention : un triangle rectangle peut être isocèle.
+Si BC² = AB² +AC² alors le triangle est rectange en A
+"""
 
 def safe_int(value):
     try:

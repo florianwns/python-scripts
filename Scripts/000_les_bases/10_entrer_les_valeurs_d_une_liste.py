@@ -1,8 +1,10 @@
-# Écrivez un programme qui permette d’encoder des valeurs numérique dans une liste. 
-# Ce programme devrait fonctionner en boucle, 
-# l’utilisateur étant invité à entrer sans cesse de nouvelles valeurs, 
-# jusqu’à ce qu’il décide de terminer en frappant <Enter> en guise d’entrée. 
-# Le programme se terminerait alors par l’affichage de la liste. 
+"""Programme qui permet d’encoder des valeurs numérique dans une liste. 
+
+Ce programme devrait fonctionner en boucle, 
+l’utilisateur étant invité à entrer sans cesse de nouvelles valeurs, 
+jusqu’à ce qu’il décide de terminer en frappant <Enter> en guise d’entrée. 
+Le programme se terminerait alors par l’affichage de la liste. 
+"""
 
 t = []
 while True:

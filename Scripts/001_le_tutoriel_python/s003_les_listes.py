@@ -26,7 +26,7 @@ liste2 = liste[:]       # renvoie une copie superficielle de la liste,
 
 liste3 = copy.deepcopy(liste)   # renvoie une copie profonde de la liste, nécessite le module copy
 
-# les 'liste2' et 'liste 3' ont de réf différentes, 
+# les 'liste2' et 'liste3' ont de réf différentes, 
 # si les valeurs de premier niveau de 'liste' sont modifiées, 'liste2' et 'liste3' ne seront pas modifiées
 # contrairement à liste1 qui pointe exactement vers les mêmes données
 print(id(liste), "==", id(liste1), "!=", id(liste2), "!=", id(liste3), end="\n\n") 

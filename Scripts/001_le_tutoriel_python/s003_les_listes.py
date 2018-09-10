@@ -83,3 +83,7 @@ print(liste, end="\n\n")
 liste2dim = [['a', 'b', 3], [1, 2, "e"]]
 print(liste2dim)
 print(liste2dim[1][2])
+
+# on peut aussi créer un liste à partir de l'objet range
+liste = list(range(5))
+print(liste)

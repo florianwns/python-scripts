@@ -51,10 +51,8 @@ print(id(liste[2]), id(liste1[2]), id(liste2[2]), id(liste3[2]), end="\n\n")
 
 
 
-
-
 liste2 = [0, 4, 9, 16]
-liste2 += [25, 35]    # concatenation avec une autre liste
+liste2 += [25, 35]    # concatenation avec une autre liste => liste2.extend([25, 35])
 liste2[-1] = 36       # remplacement d'un élément
 liste2.append(64)     # ajout d'un élément à la fin de la liste
 liste2.insert(-1,49)  # ajout d'un élément à l'index donné en paramètre
@@ -62,6 +60,9 @@ print(liste2, end="\n\n")
 
 liste2[2:] = [2, 5]   # supprime tout les élément à partir de la 3eme
                       # et insère les nouveau éléments
+                      
+del liste2[0]         # supprime le 1er élément (index 0)
+
 print(liste2)
 
 liste2.reverse()      # inverse les données
@@ -71,6 +72,8 @@ liste2.sort()         # tri la liste, ne fonctionne qu'avec des données du mêm
 print(liste2, end="\n\n")
 
 liste2.remove(4)             # supprime la premier occurence de 4 trouvé dans la liste
+                             # ValueError si l'élement n'est pas dans la liste
+
 lastItem = liste2.pop()      # retourne et supprime le dernier élément
 print(lastItem)
 
@@ -86,4 +89,10 @@ print(liste2dim[1][2])
 
 # on peut aussi créer un liste à partir de l'objet range
 liste = list(range(5))
+print(liste)
+
+liste = [i ** 2 for i in range(1, 30) if i % 2]
+print(liste)
+
+liste[0:10:2] = [3, 4, 0, 6, 10]        # De 0 à 9, change un élément tout les 2 élements 
 print(liste)

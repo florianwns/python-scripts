@@ -8,7 +8,7 @@ Quelques exemples de manipulations des boucles et des instructions
 
 # la suite de fibonnaci
 a, b = 0, 1
-while a < 20:                
+while a < 20:
     print(a, end=",")       # on idente de 4 espace l'instruction suivante
     a, b = b, a+b
 print()
@@ -26,10 +26,10 @@ words = ["Bonjour", "Jeune", "Padawan"]
 for w in words:
     if w == "Yoda":
         break               # le 'break' permet de sortie de la boucle,
-else:                       # par contre on passe dans le 'else' si le break 
+else:                       # par contre on passe dans le 'else' si le break
                             # n'est jamais appelé dans la boucle for'
-                            # ici on utilise le r de raw_string 
-    st = r"""               
+                            # ici on utilise le r de raw_string
+    st = r"""
                         ____
                     (xXXXX|xx======---(-
                     /     |
@@ -54,13 +54,13 @@ else:                       # par contre on passe dans le 'else' si le break
     print(st)
 
 
-# on peut aussi utiliser range dans la même idée 
+# on peut aussi utiliser range dans la même idée
 # que la boucle for(i = 0; i < words.length; i++) dans d'autres langage
 for i in range(len(words)):
     print(words[i], len(words[i]))
 
 
-# exemple de range qui est objet iterable, 
+# exemple de range qui est objet iterable,
 # et pas une liste à proprement parlée
 range(5)                # 0, 1, 2, 3, 4
 range(5, 10)            # 5, 6, 7, 8, 9

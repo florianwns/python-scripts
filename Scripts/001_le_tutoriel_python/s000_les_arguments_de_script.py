@@ -1,4 +1,4 @@
-"""Les arguments d'applications
+"""Les arguments de script
 
 Petit programme qui lit les arguments passés en paramètre
 """

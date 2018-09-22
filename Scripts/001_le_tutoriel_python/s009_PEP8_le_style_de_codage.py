@@ -33,6 +33,11 @@
 ° De la même manière, n’utilisez que des caractères ASCII
   pour vos noms de variables s’il est envisageable qu’une personne
   parlant une autre langue lise ou doive modifier votre code.
+
+Source : https://docs.python.org/fr/3/tutorial/controlflow.html
+
+Voir aussi le Google Python Style Guide
+https://github.com/google/styleguide/blob/gh-pages/pyguide.md
 """
 
 print(__doc__)

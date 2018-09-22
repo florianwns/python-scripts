@@ -13,7 +13,8 @@ et n'ont aucun effet sur l'éxécution du code
 def command_meal(count: int = 0, meal: str = "", table: int = None) -> str:
     if table is None :
         return "Please, give us the number of your table"
-    return "Hey Chief, i need {0} {1} for the table number {2}".format(count, meal, table)
+    res = "Hey Chief, i need {0} {1} for the table number {2}"
+    return res.format(count, meal, table)
 
 
 print(command_meal.__annotations__)

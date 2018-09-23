@@ -27,3 +27,10 @@ for i in range(4):
         transposed_row.append(row[i])
     transposed.append(transposed_row)
 print(transposed)
+
+
+# on peut faire quasiment la même chose avec 'zip'
+# qui nous renvoie un itérateur de tuples
+# grâce auquel on initialise une nouvelle liste
+# list(zip('ABCD', 'xy')) --> [('A', 'x'), ('B', 'y')]
+print(list(zip(*matrix)))

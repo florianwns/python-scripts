@@ -22,7 +22,7 @@ b = set("journée")          # |          |  o   n   |          |
                             # |    b     |    u     |   é  e   |
                             # |          |  j   r   |          |
 
-# lettre dans a mais pas dans b
+# lettre dans a mais pas dans b : DIFFÉRENCE
 print(a - b)      # {'b'}
 
 # lettre dans a OU dans b : UNION
@@ -34,5 +34,5 @@ print(a & b)      # {'r', 'j', 'u', 'o', 'n'}
 # lettre dans a OU dans b MAIS PAS les 2 : XOR
 print(a ^ b)      # {'e', 'é', 'b'}
 
-# XOR équivaut à UNION - INTERSECTION
+# XOR équivaut aussi à UNION - INTERSECTION
 print((a | b) - (a & b))    # {'e', 'é', 'b'}

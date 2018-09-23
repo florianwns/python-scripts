@@ -7,10 +7,13 @@ Quelques exemples de manipulations des chaînes de caractères.
 Les chaînes de caractères sont immuables.
 """
 
-print('c:\some\name')       # ici le \n va nous faire sauter une ligne
-print(r'c:\some\name')      # the r evite cela en nous évitant de doubler les \
+# ici le \n va nous faire sauter une ligne
+print('c:\some\name')
+# the r evite cela en nous évitant de doubler les \    
+print(r'c:\some\name')
 
-# le \ evite le retour à la ligne, Attention : il ne faut aucune espace après le \
+# le \ evite le retour à la ligne,
+# Attention : il ne faut aucune espace après le \
 print("""\
 Usage: thingy [OPTIONS]
      -h                        Display this usage message

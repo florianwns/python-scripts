@@ -13,7 +13,7 @@ l'union, l'intersection, la différence et la différence symétrique (XOR)
 fruits = {"banana", "orange", "apple", "orange"}
 print(fruits)
 
-# Vérification de l'existance d'un élément
+# vérification de l'existence d'un élément
 print("banana" in fruits)
 
 # initilisation avec le mot clé 'set'

@@ -11,7 +11,7 @@ import mes_modules.fibonacci as fibo
 # on pourrait aussi écrire :
 # from mes_modules import fibonacci as fibo
 
-# on pourrai aussi importer tout les modules du package
+# on pourrait aussi importer tout les modules du package
 # nécessite le fichier __init__.py
 # from mes_modules import *
 
@@ -25,15 +25,13 @@ print(fibo.__doc__)
 res = fibo.fib(50)
 print(res)
 
-# affiche les dossiers de modules de python
-# va cherche l'info dans la variable shell PYTHONPATH
+# affiche les dossiers des modules de python
+# va chercher l'info dans la variable shell PYTHONPATH
 for path in sys.path:
     print(path)
 
-
 # les version compilés des modules sont conservés
 # au format .pyc dans le dossier __pycache__
-
 
 # listes des noms définis dans le module
 print(dir(fibo))

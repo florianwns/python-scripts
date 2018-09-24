@@ -27,7 +27,7 @@ del tel['jerome']
 keys = list(tel)
 print(keys)
 
-# vérification de l'existance d'un élément
+# vérification de l'existence d'un élément
 print('standard' in tel)
 
 # initialisation par compréhension

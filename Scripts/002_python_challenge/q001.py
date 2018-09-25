@@ -4,6 +4,8 @@
 """Question 001
 
 Source : http://www.pythonchallenge.com/pc/def/map.html
+
+find rare characters in the mess below:
 everybody thinks twice before solving this.
 """
 

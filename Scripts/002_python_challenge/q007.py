@@ -3,7 +3,7 @@
 
 """Question 007
 
-Download : http://www.pythonchallenge.com/pc/def/oxygen.html
+Source : http://www.pythonchallenge.com/pc/def/oxygen.html
 
 Download the image
 and read data in RGBA Mode

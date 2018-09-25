@@ -6,8 +6,8 @@
 Il existe plusieurs façon de formater les données
 avant écriture ou affichage
 
-source :
-https://docs.python.org/fr/3/library/string.html#formatspec
+source : https://docs.python.org/fr/3/library/string.html#formatspec
+         https://pyformat.info/
 """
 
 # en utilisiant les chaines formatées f"" appelées "f-strings"

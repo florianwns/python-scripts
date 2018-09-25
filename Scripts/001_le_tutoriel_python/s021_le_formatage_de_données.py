@@ -51,7 +51,7 @@ print(f'La valeur approximtive de pi est : {pi:.3f}.')
 # on peut donc justifier les chaines, et les compléter avec des espaces
 phones = {"Pascal": 8004, "David": 8003, "Accueil": 8099}
 for name, phone in phones.items():
-    print(f"| {name:10} | {phone:^10d} |")
+    print(f"| {name:>10} | {phone:-^10d} |")
 
 # '!a' utilise ascii(), '!s' utilise str(), and '!r' utilise repr():
 print(f"chaine = {chaine!a}")

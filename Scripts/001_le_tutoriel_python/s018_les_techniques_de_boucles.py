@@ -8,7 +8,7 @@ on peut faire plein de choses efficaces
 """
 
 # on peut :
-# récupérer les clés : valeurs comme dans avec key => value en PHP
+# récupérer les clés : valeurs comme avec key => value en PHP
 heroes = {"Batman": "Bruce Wayne", "Spider-man": "Peter Parker", "Superman": "Clark Kent"}
 for key, value in heroes.items():
     print(key, ":", value)

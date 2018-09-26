@@ -14,11 +14,11 @@ from calendar import datetime
 from datetime import timedelta
 
 dates = []
-for year in range(0,1900):
-    if year%10 == 6:
-        date = datetime.datetime(year, 1, 26)
-        if "Monday" == date.strftime("%A"):
-            dates.append(date)
+for year in range(1006,1996, 10):
+    date = datetime.datetime(year, 1, 26)
+    if date.isoweekday() == 1:  # if "Monday" == date.strftime("%A"):
+        dates.append(date)
 
+# on prend la deuxième date la plus recente
 tomorrow = dates[-2] + timedelta(days=1)
 print(tomorrow.strftime("%A %d %B %Y"), "is Mozart's birth day")

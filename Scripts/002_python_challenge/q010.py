@@ -10,7 +10,7 @@ what are you looking at ?
 len(a[30]) = ?
 a = [1, 11, 21, 1211, 111221]
 
-solution : http://villemin.gerard.free.fr/Puzzle/SeqComme.htm
+Solution : http://villemin.gerard.free.fr/Puzzle/SeqComme.htm
 """
 
 a = ["1"]

@@ -13,7 +13,7 @@ les fichiers .p sont des fichiers utilisé par pickle
 
 import pickle
 
-data = pickle.load(open("banner.p", "rb" ))
+data = pickle.load(open("assets/banner.p", "rb" ))
 for elt in data:
     # print "".join([e[1] * e[0] for e in elt])
     for e in elt:

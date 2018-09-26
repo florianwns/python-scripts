@@ -18,7 +18,7 @@ import re
 
 nothing = "90052"
 comments = []
-with zipfile.ZipFile('channel.zip') as zip_file:
+with zipfile.ZipFile('assets/channel.zip') as zip_file:
     while True:
         info = zip_file.getinfo(nothing + ".txt")       # récupère les infos
         comments.append(info.comment.decode("utf-8"))   # ajout le commentaire
@@ -31,4 +31,4 @@ with zipfile.ZipFile('channel.zip') as zip_file:
 
 print("".join(comments))
 
-# read 'oxygen'
+# read 'oxygen' and not 'hockey'

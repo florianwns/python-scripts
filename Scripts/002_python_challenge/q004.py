@@ -34,7 +34,7 @@ while True:
             nothing = "".join(re.findall('nothing is ([0-9]*)', text))
             print("Opening URL:", nothing)
         elif "Divide" in text:
-             nothing = str(int(nothing/2))
+             nothing = str(int(nothing)/2)
              print("Divided nothing:", nothing)
         else:
             webbrowser.open(site + text)

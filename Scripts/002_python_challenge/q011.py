@@ -9,7 +9,7 @@ odd even
 """
 
 from PIL import Image
-img = Image.open("cave.jpg")
+img = Image.open("assets/cave.jpg")
 pixels = img.load()
 print(pixels)
 
@@ -19,5 +19,4 @@ for i in range(img.size[0]):       # for every col
             pixels[i,j] = (0, 0, 0)    # make a pixel black
 
 img.show()
-
 # you should see 'evil'

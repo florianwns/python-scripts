@@ -10,7 +10,7 @@ and read data in RGBA Mode
 """
 
 from PIL import Image
-file = Image.open("oxygen.png")
+file = Image.open("assets/oxygen.png")
 data = list(file.getdata())
 width, height = file.size
 pixels = [data[i * width:(i + 1) * width] for i in range(height)]

@@ -15,8 +15,7 @@ import numpy
 balloons =  Image.open("assets/balloons.jpg")
 pixels =  balloons.load()
 
-w, h = balloons.size
-w //= 2
+w, h = balloons.size[0]//2, balloons.size[1]
 img1 = Image.new('RGB', (w, h))
 pixels1 = img1.load()
 img2 = Image.new('RGB', (w, h))

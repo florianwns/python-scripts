@@ -7,24 +7,41 @@ Source: http://www.pythonchallenge.com/pc/return/balloons.html
 
 can you tell the difference?
 it is more obvious that what you might think
+
+the difference is http://www.pythonchallenge.com/pc/return/brightness.html
+maybe consider deltas.gz
 """
 
-from PIL import Image, ImageChops
-import numpy
+import gzip, difflib
 
-balloons =  Image.open("assets/balloons.jpg")
-pixels =  balloons.load()
+f = gzip.open("assets/deltas.gz")
 
-w, h = balloons.size[0]//2, balloons.size[1]
-img1 = Image.new('RGB', (w, h))
-pixels1 = img1.load()
-img2 = Image.new('RGB', (w, h))
-pixels2 = img2.load()
+left, right = [], []
 
-for j in range(h):
-    for i in range(w):
-        pixels1[i, j] = pixels[i, j]
-        pixels2[i, j] = pixels[i + w, j]
+for line in f:
+    left.append(line[:53].decode() + '\n')
+    right.append(line[56:].decode())
 
-img1.show()
-img2.show()
+
+diff = difflib.Differ().compare(left, right)
+
+f = open("assets/diff.png", "wb")
+f1 = open("assets/diff1.png", "wb")
+f2 = open("assets/diff2.png", "wb")
+
+for line in diff:
+    bs = bytes([int(o, 16) for o in line[2:].strip().split(" ") if o])
+    if line[0] == '+':
+        f1.write(bs)
+    elif line[0] == '-':
+        f2.write(bs)
+    else:
+        f.write(bs)
+
+f.close()
+f1.close()
+f2.close()
+
+# http://www.pythonchallenge.com/pc/hex/bin.html
+# login : butter
+# password : fly

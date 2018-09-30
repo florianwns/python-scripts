@@ -20,7 +20,7 @@ Content-type: audio/x-wav; name="indian.wav"
 Content-transfer-encoding: base64
 """
 
-import base64, struct
+import base64, struct, wave
 from collections import namedtuple
 
 data = """
@@ -1986,32 +1986,28 @@ PwRACEAGPwpADj8JQBA=
 """
 
 data = base64.b64decode(data)
-
-print(data)
-
-f = open("assets/indian.wav", "wb")
+f = open("assets/little_indian.wav", "wb")
 f.write(data)
 f.close()
 
 # https://fr.wikipedia.org/wiki/Waveform_Audio_File_Format
 
-
 headers = namedtuple(
     'WaveHeaders',
     ' '.join([
         #[Bloc de déclaration d'un fichier au format WAVE]
-        "FileTypeBlocID", #(4 octets) : Constante «RIFF»  (0x52,0x49,0x46,0x46)
-        "FileSize",       #(4 octets) : Taille du fichier moins 8 octets
-        "FileFormatID",   #(4 octets) : Format = «WAVE»  (0x57,0x41,0x56,0x45)
+        "FileTypeBlocID", #(4 octets) :4 Constante «RIFF»  (0x52,0x49,0x46,0x46)
+        "FileSize",       #(4 octets) 4:8 Taille du fichier moins 8 octets
+        "FileFormatID",   #(4 octets) 8:12 Format = «WAVE»  (0x57,0x41,0x56,0x45)
 
         #[Bloc décrivant le format audio]
-        "FormatBlocID",   #(4 octets) : Identifiant «fmt »  (0x66,0x6D, 0x74,0x20)
-        "BlocSize",       #(4 octets) : Nombre d'octets du bloc - 16  (0x10)
-        "AudioFormat",    #(2 octets) : Format du stockage dans le fichier (1: PCM, ...)
-        "NbrCanaux",      #(2 octets) : Nombre de canaux (de 1 à 6, cf. ci-dessous)
-        "Frequence",      #(4 octets) : Fréquence d'échantillonnage (en hertz) [Valeurs standardisées : 11 025, 22 050, 44 100 et éventuellement 48 000 et 96 000]
-        "BytePerSec",     #(4 octets) : Nombre d'octets à lire par seconde (c.-à-d., Frequence * BytePerBloc).
-        "BytePerBloc",    #(2 octets) : Nombre d'octets par bloc d'échantillonnage (c.-à-d., tous canaux confondus : NbrCanaux * BitsPerSample/8).
+        "FormatBlocID",   #(4 octets) 12:16 Identifiant «fmt »  (0x66,0x6D, 0x74,0x20)
+        "BlocSize",       #(4 octets) 16:20 Nombre d'octets du bloc - 16  (0x10)
+        "AudioFormat",    #(2 octets) 20:22 Format du stockage dans le fichier (1: PCM, ...)
+        "NbrCanaux",      #(2 octets) 22:24 Nombre de canaux (de 1 à 6, cf. ci-dessous)
+        "Frequence",      #(4 octets) 24:28 Fréquence d'échantillonnage (en hertz) [Valeurs standardisées : 11 025, 22 050, 44 100 et éventuellement 48 000 et 96 000]
+        "BytePerSec",     #(4 octets) 28:32 Nombre d'octets à lire par seconde (c.-à-d., Frequence * BytePerBloc).
+        "BytePerBloc",    #(2 octets) 32:34 Nombre d'octets par bloc d'échantillonnage (c.-à-d., tous canaux confondus : NbrCanaux * BitsPerSample/8).
         "BitsPerSample",  #(2 octets) : Nombre de bits utilisés pour le codage de chaque échantillon (8, 16, 24)
 
         #[Bloc des données]
@@ -2022,7 +2018,22 @@ headers = namedtuple(
 )
 
 WaveHeaders = headers._make(struct.unpack('4si4s4sihhiihhii', data[:44]))
-for key, value in zip(headers._fields, WaveHeaders):
+for key, value in zip(headers._fields, WaveHeaders,):
     print(key, "=>", value)
 
-print(len(data[44:]))
+f = open("assets/big_indian.wav", "wb")
+f.write(data[:24])
+# Frequence => 11025 => 22050
+f.write(struct.pack('i', struct.unpack('i', data[24:28])[0] * 2))
+f.write(data[28:32])
+# BytePerBloc => 2 => 1
+f.write(struct.pack('h', struct.unpack('h', data[32:34])[0] // 2))
+# BitsPerSample => 16 => 8
+f.write(struct.pack('h', struct.unpack('h', data[34:36])[0] // 2))
+f.write(data[36:])
+f.close()
+
+# ♪ You're an Idiot ♪
+# http://www.pythonchallenge.com/pc/hex/idiot.html
+# then
+# http://www.pythonchallenge.com/pc/hex/idiot2.html

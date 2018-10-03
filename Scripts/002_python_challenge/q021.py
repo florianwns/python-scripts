@@ -34,5 +34,5 @@ with open("assets/level_21/package.pack", "rb") as f:
             result += '\n'
         else:
             break
-    print(data)
-    print(result)
+    print(data[::-1].decode()) # look at your logs
+    print(result) # Copper

@@ -27,6 +27,7 @@ with open("assets/level_21/package.pack", "rb") as f:
             data = zlib.decompress(data)
             result += ' '
         elif data.startswith(b'BZh'):
+            data = bz2.decompress(data)
             result += '#'
         elif data.endswith(b'\x9cx'):
             data = data[::-1]

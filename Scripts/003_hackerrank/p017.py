@@ -5,7 +5,7 @@
 
 HTML Parser - Part 2
 
-Source : https://www.hackerrank.com/challenges/html-parser-part-1/problem
+Source : https://www.hackerrank.com/challenges/html-parser-part-2/problem
 """
 from html.parser import HTMLParser
 

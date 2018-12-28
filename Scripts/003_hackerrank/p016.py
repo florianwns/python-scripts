@@ -29,3 +29,4 @@ for _ in range(int(input())):
 
 parser = CustomHTMLParser()
 parser.feed(html)
+parser.close()

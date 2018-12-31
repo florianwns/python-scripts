@@ -8,9 +8,8 @@ Merge the Tools!
 Source : https://www.hackerrank.com/challenges/merge-the-tools/problem
 """
 def merge_the_tools(string, max_width):
-    l = [string[i:i+max_width] for i in range(0, len(string), max_width)]
-    for w in l:
-        print("".join(sorted(set(w), key=w.index)))
+    for word in zip(*[iter(string)] * max_width):
+        print(''.join(sorted(set(word), key=word.index)))
 
 
 if __name__ == '__main__':

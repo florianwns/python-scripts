@@ -7,8 +7,8 @@ Merge the Tools!
 
 Source : https://www.hackerrank.com/challenges/merge-the-tools/problem
 """
-def merge_the_tools(string, max_width):
-    for word in zip(*[iter(string)] * max_width):
+def merge_the_tools(string, k):
+    for word in zip(*[iter(string)] * k):
         print(''.join(sorted(set(word), key=word.index)))
 
 

@@ -9,6 +9,6 @@ Source : https://www.hackerrank.com/challenges/np-polynomials/problem
 """
 import numpy as np
 
-p = np.poly1d(np.array(input().split(), float))
-x = int(input())
-print(p(x))
+n = np.array(input().split(), float)
+m = float(input())
+print(np.polyval(n, m))

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Problem 040
+"""Problem 041
 
-Zeros and Ones
+Eye and Identity
 
-Source : https://www.hackerrank.com/challenges/np-zeros-and-ones/problem
+Source : https://www.hackerrank.com/challenges/np-eye-and-identity/problem
 """
 import numpy as np
 np.set_printoptions(sign=' ')

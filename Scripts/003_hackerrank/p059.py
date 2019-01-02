@@ -7,6 +7,6 @@ Check Subset
 
 Source : https://www.hackerrank.com/challenges/py-check-subset/problem
 """
-for _ in range(int(input())):
-    a, b = [set(map(int, input().split())) for _ in range(4)][1::2]
-    print(a <= b) # a.issubset(b)
+a = set(map(int, input().split()))
+l = [a > set(map(int, input().split())) for _ in range(int(input()))]
+print(all(l))

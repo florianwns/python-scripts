@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Problem 058
+"""Problem 059
 
-Check Subset
+Check Strict Superset
 
-Source : https://www.hackerrank.com/challenges/py-check-subset/problem
+Source : https://www.hackerrank.com/challenges/py-check-strict-superset/problem
 """
 a = set(map(int, input().split()))
 l = [a > set(map(int, input().split())) for _ in range(int(input()))]

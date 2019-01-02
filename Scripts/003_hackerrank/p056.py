@@ -10,7 +10,7 @@ Source : https://www.hackerrank.com/challenges/py-set-mutations/problem
 n = int(input())
 a = set(map(int, input().split()))
 for _ in range(int(input())):
-    args = input().split()
+    op = input().split()[0]
     b = set(map(int, input().split()))
-    eval("a.{}({})".format(args[0], b))
+    eval("a.{}(b)".format(op))
 print(sum(a))

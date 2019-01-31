@@ -3,5 +3,4 @@
 build
 *.log
 __pycache__
-Scripts/002_python_challenge/assets/unre.jpg
-Scripts/002_python_challenge/assets/unreal.jpg
+.DS_Store

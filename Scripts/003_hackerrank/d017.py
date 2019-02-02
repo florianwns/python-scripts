@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""Day 17: More Exceptions
+
+Source : https://www.hackerrank.com/challenges/30-more-exceptions/problem
+"""
+class Calculator:
+    def power(self, n, p):
+        if n >= 0 and p >= 0:
+            return n**p
+        else:
+            raise ValueError("n and p should be non-negative")
+
+myCalculator=Calculator()
+T=int(input())
+for i in range(T):
+    n,p = map(int, input().split())
+    try:
+        ans=myCalculator.power(n,p)
+        print(ans)
+    except Exception as e:
+        print(e)   

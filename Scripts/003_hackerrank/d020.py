@@ -15,6 +15,6 @@ for i in range(len(a)):
             a[j], a[k] = a[k], a[j]
             numberOfSwaps += 1
 
-print("Array is sorted in %i swaps." % numberOfSwaps)
-print("First Element:", a[0])
-print("Last Element:", a[-1])
+print(f"Array is sorted in {numberOfSwaps} swaps.")
+print(f"First Element: {a[0]}")
+print(f"Last Element: {a[-1]}")

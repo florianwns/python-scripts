@@ -5,7 +5,25 @@
 
 Source : https://www.hackerrank.com/challenges/30-bitwise-and/problem?h_r=next-challenge&h_v=zen
 """
+from itertools import combinations
+
+def get_max(n, k):
+    m = 0
+    for t in combinations(range(1, n+1), 2):
+        r = t[0]&t[1]
+        if r < k and r > m:
+            m = r
+        if m == k - 1:
+            break
+    return m
+"""
+res = []
 for _ in range(int(input())):
     n, k = map(int, input().split())
-    s = list(range(1, n+1))
-    print(max([i&j for i in s[:-1] for j in s[1:] if i!=j  and i&j < k]))
+    res.append(get_max(n, k))
+print(*res, sep="\n")
+"""
+res = []
+for _ in range(500):
+    res.append(get_max(800, 50))
+print(*res, sep="\n")

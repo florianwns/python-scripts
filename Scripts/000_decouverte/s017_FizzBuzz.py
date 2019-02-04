@@ -3,4 +3,4 @@
 
 """FizzBuzz
 """
-[print("Fizz" * (x % 3 == 0) + "Buzz" * (x % 5 == 0) or x) for x in range(1, 101)]
+[print("Fizz" * (not x % 3) + "Buzz" * (not x % 5) or x) for x in range(1, 101)]

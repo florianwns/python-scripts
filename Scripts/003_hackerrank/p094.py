@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Problem 093
+"""Problem 094
 
 sWAP cASE
 

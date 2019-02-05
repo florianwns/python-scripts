@@ -12,7 +12,7 @@ cube = lambda x: x**3
 def fibonacci(n):
     fib = [0, 1]
     [fib.append(fib[i-1]+fib[i-2]) for i in range(2, n)]
-    return fib
+    return fib[0:n]
 
 if __name__ == '__main__':
     n = int(input())

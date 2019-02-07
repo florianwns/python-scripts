@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Problem 111
+"""Problem 112
 
 Polar Coordinates
 

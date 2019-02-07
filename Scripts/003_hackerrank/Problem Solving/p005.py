@@ -7,9 +7,9 @@ Diagonal Difference
 
 Source : https://www.hackerrank.com/challenges/diagonal-difference/problem
 """
-n = 3#int(input())
+n = int(input())
 sum = 0
 for i, j in zip(range(n), reversed(range(n))):
-    l = map(int, input().split())
+    l = list(map(int, input().split()))
     sum += l[i] - l[j]
 print(abs(sum))

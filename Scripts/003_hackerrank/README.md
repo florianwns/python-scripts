@@ -1,3 +1,3 @@
-# Python 3 - Tutorial
+# Python 3 - Hackerrank
 
-Voici un liste de scripts qui m'ont permis de prendre en main Python.
+Voici la listes de mes scripts sur le site de Hackerrank.

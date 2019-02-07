@@ -7,3 +7,4 @@ Solve Me First
 
 Source : https://www.hackerrank.com/challenges/solve-me-first/problem
 """
+print(sum([int(input()) for _ in range(2)]))

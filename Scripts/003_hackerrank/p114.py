@@ -5,7 +5,7 @@
 
 Words Score
 
-Source : https://www.hackerrank.com/challenges/words-score/problem?
+Source : https://www.hackerrank.com/challenges/words-score/problem
 """
 def score_words(words):
     return sum([sum([c in "aeiouy" for c in w]) % 2 or 2 for w in words])

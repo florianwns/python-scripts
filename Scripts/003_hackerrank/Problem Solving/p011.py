@@ -8,7 +8,7 @@ Play with words
 Source : https://www.hackerrank.com/challenges/strplay/problem
 
 Note : une sous séquence palindromique , n'est pas forcement continue
-Algorythme pour le moment trop lentself.
+Algorithme pour le moment trop lent.
 Valide le test mais cause un timeout sur les chaines trop longues
 """
 def lps(s):

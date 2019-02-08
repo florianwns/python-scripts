@@ -8,6 +8,8 @@ Play with words
 Source : https://www.hackerrank.com/challenges/strplay/problem
 
 Note : une sous séquence palindromique , n'est pas forcement continue
+Algorythme pour le moment trop lentself.
+Valide le test mais cause un timeout sur les chaines trop longues
 """
 def lps(s):
     n = len(s)
@@ -35,6 +37,7 @@ def lps(s):
 
     # cacule les combinaisons de longueurs max
     n = len(m)
+    #print(m)
     score_max = 1
     for i1 in range(n-1):
         for t1 in m[i1]:
@@ -46,4 +49,7 @@ def lps(s):
 
     return score_max
 
-print(lps(input()))
+print(lps("geekgkeaa"))
+# score max = 50 in 0.1s
+print(lps("eeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeekseeegeeksforskeeggeeks"))
+# score max = 12543 in 14s

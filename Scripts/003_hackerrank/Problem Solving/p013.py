@@ -7,27 +7,13 @@ Non-Divisible Subset
 
 Source : https://www.hackerrank.com/challenges/non-divisible-subset/problem
 """
-from itertools import combinations
+from collections import Counter
+
 n, k = map(int, input().split())
-s = [int(i) % k for i in input().split()]
+cpts = Counter([int(i) % k for i in input().split()])
 
-def GetLengthOfTheLongestNonDivisibleSubset(l, n, k):
-    if k == 1:
-        return 1
-
-    for i in reversed(range(2, len(l)+1)):
-        for c in combinations(l, i):
-            # si toutes les sommes sont divisibles par k
-            test = True
-            for e in combinations(c, 2):
-                if (e[0]+e[1]) % k == 0:
-                    test = False
-                    break
-            if test:
-                return len(c)
-    for i in l:
-        if i % k:
-            return 1
-    return 0
-
-print(GetLengthOfTheLongestNonDivisibleSubset(s, n, k))
+# pour tout K, la somme des deux valeurs A et B est divisible par K
+# seulement si le reste de A/K + B/K = K
+total = int(k%2 == 0) + min(cpts[0], 1)
+total += sum([max(cpts[i], cpts[k-i]) for i in range(1, k//2+1) if i != k-i])
+print(total)

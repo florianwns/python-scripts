@@ -56,4 +56,5 @@ class TestCamera(App):
     def build(self):
         return CameraClick()
 
-TestCamera().run()
+if __name__ == '__main__':
+    TestCamera().run()

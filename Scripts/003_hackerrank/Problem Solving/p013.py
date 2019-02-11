@@ -9,7 +9,8 @@ Source : https://www.hackerrank.com/challenges/non-divisible-subset/problem
 """
 from itertools import combinations
 n, k = map(int, input().split())
-l = list(map(int, input().split()))
+s = [int(i) % k for i in input().split()]
+
 def GetLengthOfTheLongestNonDivisibleSubset(l, n, k):
     if k == 1:
         return 1
@@ -29,4 +30,4 @@ def GetLengthOfTheLongestNonDivisibleSubset(l, n, k):
             return 1
     return 0
 
-print(GetLengthOfTheLongestNonDivisibleSubset(l, n, k))
+print(GetLengthOfTheLongestNonDivisibleSubset(s, n, k))

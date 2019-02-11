@@ -13,7 +13,6 @@ xcode-select --install
 brew remove portaudio
 brew install portaudio
 pip3 install pyaudio
-
 """
 import math        # import needed modules
 import pyaudio     # sudo apt-get install python-pyaudio

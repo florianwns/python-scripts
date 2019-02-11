@@ -15,14 +15,14 @@ brew install portaudio
 pip3 install pyaudio
 
 """
-import math        #import needed modules
-import pyaudio     #sudo apt-get install python-pyaudio
+import math        # import needed modules
+import pyaudio     # sudo apt-get install python-pyaudio
 
 PyAudio = pyaudio.PyAudio     #initialize pyaudio
 
-BITRATE = 16000     #number of frames per second/frameset.
-FREQUENCY = 500     #Hz, waves per second, 261.63=C4-note.
-LENGTH = 1     #seconds to play sound
+BITRATE = 16000     # number of frames per second/frameset.
+FREQUENCY = 500     # Hz, waves per second, 261.63=C4-note.
+LENGTH = 1          # seconds to play sound
 
 if FREQUENCY > BITRATE:
     BITRATE = FREQUENCY+100
@@ -31,7 +31,7 @@ NUMBEROFFRAMES = int(BITRATE * LENGTH)
 RESTFRAMES = NUMBEROFFRAMES % BITRATE
 WAVEDATA = ''
 
-#generating wawes
+# Generating wawes
 for x in range(NUMBEROFFRAMES):
     WAVEDATA = WAVEDATA+chr(int(math.sin(x/((BITRATE/FREQUENCY)/math.pi))*127+128))
 

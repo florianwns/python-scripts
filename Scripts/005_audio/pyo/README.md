@@ -21,10 +21,14 @@
 
 ## Les softwares basés sur PYO
 
-- https://github.com/alexandrepoirier/PyoSynth
-- http://ajaxsoundstudio.com/software/cecilia/
+ - https://github.com/alexandrepoirier/PyoSynth
+ - http://ajaxsoundstudio.com/software/cecilia/
 
-## Vidéos
+## Externals
+
+  - https://github.com/belangeo/pyo/tree/master/externals
+
+## Videos
 
  - https://www.youtube.com/watch?v=CcRzJ4mpGFc
  - https://www.youtube.com/watch?v=r-CtmmlfWfU

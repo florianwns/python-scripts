@@ -4,6 +4,7 @@
 
  - https://github.com/belangeo/pyo
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
+ - https://github.com/belangeo/pyo-tools
 
 ## Channel de discussion
 
@@ -22,3 +23,12 @@
 
 - https://github.com/alexandrepoirier/PyoSynth
 - http://ajaxsoundstudio.com/software/cecilia/
+
+## Vidéos
+
+ - https://www.youtube.com/watch?v=CcRzJ4mpGFc
+ - https://www.youtube.com/watch?v=r-CtmmlfWfU
+
+## py2applet pour faire un appli mac
+
+ - https://py2app.readthedocs.io/en/latest/py2applet.html

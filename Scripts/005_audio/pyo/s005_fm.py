@@ -1,7 +1,7 @@
 """
 un peu de FM
 
-Source :http://ajaxsoundstudio.com/pyo_on_bela_html/node05.html
+Source : http://ajaxsoundstudio.com/pyo_on_bela_html/node05.html
 """
 from pyo import *
 

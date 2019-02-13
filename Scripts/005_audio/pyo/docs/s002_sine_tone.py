@@ -1,19 +1,36 @@
-"""The “hello world” of audio programming!
+"""Le “hello world” de Pyo !
 
-This script simply plays a 1000 Hz sine tone.
+Permet de jouer un onde de 1000 Hz
 """
-
 from pyo import *
 
-# Creates and boots the server.
-# The user should send the "start" command from the GUI.
+# Créer un serveur audio et le démarre
 s = Server().boot()
-# Drops the gain by 20 dB.
+
+# Démarre le calcul des échantillons des objets
+s.start()
+
+# Descend le gain de 20 dB.
 s.amp = 0.1
 
-# Creates a sine wave player.
-# The out() method starts the processing
-# and sends the signal to the output.
-a = Sine().out()
-# Opens the server graphical interface.
+# Créer une onde sinusoîdale
+a = Sine()
+
+# Active le calcul des échantillons de l'objet
+a.play()
+
+# Active le calculs des échantillons de l'object
+# en indiquant les sorties audio en paramètre
+a.out([0,1])
+
+# Arrête le calcul des échantillons de l'object
+# permet d'économis le CPU
+# a.stop()
+
+# ouvre un fenêtre de contrôle pour l'object
+a.ctrl()
+
+# Ouvre l'interface graphique en lui passant
+# l'ensemble des variables locales
+# Nécessaire pour ne pas que le programme ne se termine
 s.gui(locals())

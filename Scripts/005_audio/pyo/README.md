@@ -1,5 +1,8 @@
 # PYO
 
+![Schéma de communication](https://github.com/OrangePeelFX/python-scripts/blob/master/Scripts/005_audio/pyo/img/schema_de_communication_pyo.png)
+
+
 ## Github
 
  - https://github.com/belangeo/pyo
@@ -36,7 +39,6 @@
 ## py2applet pour faire un appli mac
 
  - https://py2app.readthedocs.io/en/latest/py2applet.html
-
 
 ## Bela
 

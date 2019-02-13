@@ -1,5 +1,7 @@
 # PYO
 
+## Schéma de communication
+
 ![Schéma de communication](https://github.com/OrangePeelFX/python-scripts/blob/master/Scripts/005_audio/pyo/img/schema_de_communication_pyo.png)
 
 
@@ -9,7 +11,7 @@
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
  - https://github.com/belangeo/pyo-tools
 
-## Channel de discussion
+## Canal de discussion
 
   - https://groups.google.com/forum/m/#!forum/pyo-discuss
 
@@ -27,11 +29,11 @@
  - https://github.com/alexandrepoirier/PyoSynth
  - http://ajaxsoundstudio.com/software/cecilia/
 
-## Externals
+## Les extensions
 
   - https://github.com/belangeo/pyo/tree/master/externals
 
-## Videos
+## Vid"e"os
 
  - https://www.youtube.com/watch?v=CcRzJ4mpGFc
  - https://www.youtube.com/watch?v=r-CtmmlfWfU
@@ -40,6 +42,6 @@
 
  - https://py2app.readthedocs.io/en/latest/py2applet.html
 
-## Bela
+## Bela (carte électronique)
 
  - https://bela.io/

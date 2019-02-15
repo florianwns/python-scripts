@@ -1,7 +1,7 @@
 """Fait dodo
 
-We use time to sleep
-and change frequency with setFreq
+On utilise la librairie de gestion du temps
+pour modifier la fréquence d'un PyoObject
 """
 
 from pyo import *

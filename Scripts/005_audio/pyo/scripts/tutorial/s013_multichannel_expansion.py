@@ -1,4 +1,4 @@
-"""Flux multi-canaux
+"""Flux multi-canaux #1
 
 La compréhension de listes est une technique puissante
 pour générer plusieurs flux audio à la fois.
@@ -19,7 +19,9 @@ Preque tous les attributs de tous les objets acceptent une liste de valeurs
 au lieu d'une valeur unique. L'objet créera en interne le même nombre
 de flux que la longueur de la liste donnée en paramètre au moment de
 l'initialisation.  Chaque valeur de la liste est utilisé pour générer un flux.
-Les listes les plus courtes boucleront sur les listes les plus longues.
+Les listes passées en paramètres peuvent avoir de longueurs différentes dans ce
+cas les listes les plus courtes boucleront en décalage
+par rapport au plus longues.
 
 Un PyoObject est considéré comme une liste.
 La méthode len() renvoie le nombre de flux gérés par l'objet

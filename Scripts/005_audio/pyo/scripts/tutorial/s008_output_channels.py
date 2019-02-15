@@ -1,6 +1,16 @@
 """Canal de sortie
 
-source : http://ajaxsoundstudio.com/pyodoc/examples/01-intro/05-output-channels.html
+Le moyen le plus simple de choisir le canal de sortie où envoyer le son
+consiste à lui donner le premier argument de la méthode out().
+En fait, la signature de la méthode out() se lit comme suit:
+
+.out(chnl=0, inc=1, dur=0, delay=0)
+
+chnl est la sortie où envoyer le premier canal audio(flux) de l'objet.
+inc est l'incrément de sortie pour les autres canaux audio.
+dur est la durée de vie, exprimée en secondes, du traitement.
+delay est un délai, en secondes, avant l'activation du processus.
+Une durée de 0 signifie pour toujours.
 """
 from pyo import *
 

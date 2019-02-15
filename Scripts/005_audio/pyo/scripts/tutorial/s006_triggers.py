@@ -1,6 +1,9 @@
 """Les déclencheurs/triggers
 
-Source : http://ajaxsoundstudio.com/pyo_on_bela_html/node07.html
+Un "trigger" est un signal audio de valeur 1 entouré de 0.
+
+Plusieurs objets de la librairie sont conçus pour activer un processus
+sur réception d'un "trigger".
 """
 from pyo import *
 

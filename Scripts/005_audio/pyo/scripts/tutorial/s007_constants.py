@@ -1,6 +1,4 @@
 """Les constantes de PYO
-
-source : http://ajaxsoundstudio.com/pyodoc/api/constants.html
 """
 from pyo import *
 

@@ -1,12 +1,13 @@
-"""Multiple processes on a single source.
+"""Traitements multiples à partir d'une seule source.
 
-This example shows how to play different audio objects side-by-side.
-Every processing object (ie the ones that modify an audio source)
-have a first argument called “input”. T
-his argument takes the audio object to process.
+Cet exemple montre comment lire différents objets audio en parallèle.
+Chaque objet de traitement (c-a-d ceux qui modifient une source audio)
+ont un premier argument appelé "input".
+L'argument "input" prend l'objet audio à traiter.
 
-Note the input variable given to each processing object and the call
-to the out() method of each object that should send its samples to the output.
+Notez la variable d'entrée donnée à chaque objet de traitement
+et leur appel respectif à la méthode out() permettant d'envoyer
+leurs échantillons à la sortie audio.
 """
 
 from pyo import *

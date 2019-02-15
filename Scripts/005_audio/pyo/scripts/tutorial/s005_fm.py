@@ -1,6 +1,7 @@
 """Un peu de FM
 
-Source : http://ajaxsoundstudio.com/pyo_on_bela_html/node05.html
+Utilisation de signaux audio à des fins de contrôle de paramètre.
+Mise en place d'une synthèse par modulation de fréquence:
 """
 from pyo import *
 

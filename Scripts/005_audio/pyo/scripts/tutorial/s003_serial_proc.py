@@ -1,28 +1,31 @@
-"""This example shows how to chain processes on a single source.
-Every processing object (ie the ones that modify an audio source)
-have a first argument called “input”.
-This argument takes the audio object to process.
+"""Traitement audio en série
 
-Note the input variable given to each Harmonizer.
+Cet exemple montre comment chaîner des traitements audio sur une source unique.
+Chaque objet de traitement (c-a-d ceux qui modifient une source audio)
+ont un premier argument appelé "input".
+
+L'argument "input" prend l'objet audio à traiter.
+
+Notez la variable d'entrée donnée à chaque harmoniseur.
 """
 from pyo import *
 
 s = Server().boot()
 s.amp = 0.1
 
-# Creates a sine wave as the source to process.
+# Crée une sinusoïde comme source de traitement
 a = Sine().out()
 
-# Passes the sine wave through an harmonizer.
+# Passes l'onde à travers l'objet harmonizer.
 h1 = Harmonizer(a).out()
 
-# Then the harmonized sound through another harmonizer.
+# Puis passes l'onde harmonisée à travers un autre objet harmonizer.
 h2 = Harmonizer(h1).out()
 
-# And again...
+# Etc...
 h3 = Harmonizer(h2).out()
 
-# And again...
+# Etc...
 h4 = Harmonizer(h3).out()
 
 s.gui(locals())

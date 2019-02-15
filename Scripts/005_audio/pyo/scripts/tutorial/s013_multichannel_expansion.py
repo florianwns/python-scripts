@@ -32,7 +32,7 @@ from pyo import *
 s = Server().boot().start()
 
 ## Utilisation de flux multi-canaux pour créer une onde carrée
-# fréquence fondamentale et et le nombres harmoniques
+# fréquence fondamentale et et nombre harmoniques
 freq, n = 100, 20
 
 # Génération de la liste des fréquences harmoniques impaires

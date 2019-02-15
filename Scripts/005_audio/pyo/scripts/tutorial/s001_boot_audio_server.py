@@ -5,23 +5,25 @@ Comment on démarre le serveur de PYO ?
 
 from pyo import *
 
-# Creates a Server object with default arguments.
-# See the manual about how to change the sampling rate, the buffer
-# size, the number of channels or one of the other global settings.
+# Crée un serveur avec les paramètres par défaut.
+# Voir le manuel pour changer le taux d’échantillonnage,
+# la taille du buffer, le nombre de canaux ou l'un des autres paramètres.
 s = Server()
 
-# Boots the server. This step initializes audio and midi streams.
-# Audio and midi configurations (if any) must be done before that call.
+# Démarre le serveur. cette étape initialise les flux audio et MIDI.
+# Si besoin, les configurations audio et MIDI doivent être effectuées
+# avant cet appel.
 s.boot()
 
-# Starts the server. This step activates the server processing loop.
+# Démarre le serveur. Cette étape active la boucle de traitement du serveur.
 s.start()
 
-# Here comes the processing chain...
+# Ici, on écrit la chaîne de traitement...
 
-# The Server object provides a Graphical User Interface with the
-# gui() method. One of its purpose is to keep the program alive
-# while computing samples over time. If the locals dictionary is
-# given as argument, the user can continue to send commands to the
-# python interpreter from the GUI.
+# L'objet Serveur fournit une interface utilisateur graphique avec la méthode
+# gui(). L'un de ses objectifs est de maintenir le programme en vie
+# pendant le calcul des échantillons au fil du temps. Si le dictionnaire
+# variables locales est donné en argument grâce à la fonction locals(),
+# l'utilisateur peut continuer à envoyer des commandes à l'interpréteur python 
+# à partir de l'interface graphique.
 s.gui(locals())

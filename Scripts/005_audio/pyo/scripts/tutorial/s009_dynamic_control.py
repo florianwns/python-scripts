@@ -1,6 +1,9 @@
 """Contrôle dynamique
 
-source : http://ajaxsoundstudio.com/pyodoc/examples/02-controls/02-dynamic-control.html
+Avec pyo, il est facile d’essayer rapidement une combinaison de paramètres
+avec la fenêtre du contrôleur déjà configurée pour chaque objet.
+Pour ouvrir la fenêtre du contrôleur, appelez simplement la méthode ctrl()
+sur l'objet que vous souhaitez contrôler.
 """
 from pyo import *
 

@@ -17,7 +17,7 @@ b = Sine(freq=100, mul=0.5, add=0.5)
 # les deux attributs `mul` et `add` et de les appliquer au PyoObject
 c = Sine(freq=100, mul=0.3).range(-0.25, 0.5)
 
-# L'oscillateur affiche les formes d'ondes 
+# L'oscillateur affiche les formes d'ondes
 sc = Scope([a, b, c])
 
 s.gui(locals())

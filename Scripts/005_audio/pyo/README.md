@@ -11,6 +11,11 @@
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
  - https://github.com/belangeo/pyo-tools
 
+### API
+
+ - http://ajaxsoundstudio.com/pyodoc/api/alphabetical.html
+ - http://ajaxsoundstudio.com/pyodoc/api/index.html
+ 
 ### Canal de discussion
 
   - https://groups.google.com/forum/m/#!forum/pyo-discuss
@@ -19,6 +24,8 @@
 
  - http://ajaxsoundstudio.com/pyodoc/index.html
  - http://www.augmented-instruments.net/_media/pyo_as_python_dsp_toolbox.pdf
+ - http://olivier.ajaxsoundstudio.com/index_fr.html
+ - https://connect.ed-diamond.com/auteur/view/71552-belanger_olivier
 
 ### Utiliser PYO dans JUCE pour créer des VST / AU
 

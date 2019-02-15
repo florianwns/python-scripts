@@ -1,5 +1,4 @@
-"""
-un peu de FM
+"""Un peu de FM
 
 Source : http://ajaxsoundstudio.com/pyo_on_bela_html/node05.html
 """

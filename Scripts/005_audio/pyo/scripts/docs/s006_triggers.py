@@ -1,5 +1,4 @@
-"""
-Triggers
+"""Les déclencheurs/triggers
 
 Source : http://ajaxsoundstudio.com/pyo_on_bela_html/node07.html
 """

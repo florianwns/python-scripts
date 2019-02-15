@@ -1,4 +1,5 @@
-"""
+"""Fait dodo
+
 We use time to sleep
 and change frequency with setFreq
 """

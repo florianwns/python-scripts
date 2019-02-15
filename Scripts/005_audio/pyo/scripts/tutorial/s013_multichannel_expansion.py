@@ -31,13 +31,13 @@ from pyo import *
 
 s = Server().boot().start()
 
-## Utilisation de flux multi-canaux pour créer un signal carré
+## Utilisation de flux multi-canaux pour créer une onde carrée
 # fréquence fondamentale et et le nombres harmoniques
 freq, n = 100, 20
 
-# Génération de li liste des harmoniques impaires
+# Génération de la liste des fréquences harmoniques impaires
 harms = [freq * i for i in range(1, n) if i%2]
-# Génération de la liste des amplitudes des harmoniques
+# Génération de la liste des amplitudes
 amps = [0.33 / i for i in range(1, n) if i%2]
 
 # Création de toutes les ondes sinusoïdales à la fois

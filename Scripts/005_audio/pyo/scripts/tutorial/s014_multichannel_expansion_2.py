@@ -1,7 +1,7 @@
 """Flux multi-canaux #2
 
-QUand on utilise les listes de différentes tailles
-pour créer ldes flux multi-canaux, la liste la plus longue défini
+Quand on utilise des listes de différentes tailles
+pour créer des flux multi-canaux, la liste la plus longue défini
 le nombre de flux, et les plus petites vont boucler pour combler les trous.
 
 Cette particularité est très utile pour créer des objets complexes.

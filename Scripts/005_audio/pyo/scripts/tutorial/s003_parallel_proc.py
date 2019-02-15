@@ -9,7 +9,6 @@ Notez la variable d'entrée donnée à chaque objet de traitement
 et leur appel respectif à la méthode out() permettant d'envoyer
 leurs échantillons à la sortie audio.
 """
-
 from pyo import *
 
 s = Server().boot()

@@ -3,7 +3,6 @@
 On utilise la librairie de gestion du temps
 pour modifier la fréquence d'un PyoObject
 """
-
 from pyo import *
 import time
 s = Server().boot()

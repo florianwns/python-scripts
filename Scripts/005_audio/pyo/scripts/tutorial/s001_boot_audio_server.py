@@ -2,7 +2,6 @@
 
 Comment on démarre le serveur de PYO ?
 """
-
 from pyo import *
 
 # Crée un serveur avec les paramètres par défaut.
@@ -24,6 +23,6 @@ s.start()
 # gui(). L'un de ses objectifs est de maintenir le programme en vie
 # pendant le calcul des échantillons au fil du temps. Si le dictionnaire
 # variables locales est donné en argument grâce à la fonction locals(),
-# l'utilisateur peut continuer à envoyer des commandes à l'interpréteur python 
+# l'utilisateur peut continuer à envoyer des commandes à l'interpréteur python
 # à partir de l'interface graphique.
 s.gui(locals())

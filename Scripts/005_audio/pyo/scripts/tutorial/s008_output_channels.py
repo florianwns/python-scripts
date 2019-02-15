@@ -7,7 +7,7 @@ from pyo import *
 s = Server().boot()
 s.amp = 0.1
 
-# Créer une source de bruit blanc
+# Crée une source de bruit blanc
 n = Noise()
 
 # Envoie the basses fréquences (en dessous de 1Khz) vers la gauche

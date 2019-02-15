@@ -7,7 +7,7 @@ from pyo import *
 s = Server().boot()
 s.amp = 0.1
 
-# Créer deux objets par channel
+# Crée deux objets par channel
 a = FM().out(0) # Gauche
 b = FM().out(1) # Droite
 

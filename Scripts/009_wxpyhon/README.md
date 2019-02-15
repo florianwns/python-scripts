@@ -8,7 +8,8 @@
 ### Documentation
 
  - https://docs.wxpython.org/
+ - https://alain72.developpez.com/tutos/wxPython/
 
-### Extras
+### WxFormBuilder
 
- - https://extras.wxpython.org/wxPython4/extras/
+ - https://vcansimplify.wordpress.com/2013/04/08/ultra-quick-guis-with-wxformbuilderpython/

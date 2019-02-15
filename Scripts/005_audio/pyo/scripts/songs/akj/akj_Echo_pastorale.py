@@ -1,28 +1,17 @@
-"""
-Template for a RadioPyo song (version 1.0).
-
-Source : https://14604197539426422144.googlegroups.com/attach/39beec72028c4/AKJ_echo_pastorale-radiopyo.py?part=0.1&view=1&vt=ANaJVrHpCx3OpMozaIDDjt7A-1XJTxEMK3j-pPT3NItgpSp0sh5cnhWYS1VbU6CFzkSIfsBtYSe5NUeiuyjbKtBbEEVkuYHV5GB8mBYIMFY338eJtlhShog
-"""
+#!/usr/bin/env python
+# encoding: utf-8
 import sys
 
 from math import pow
 from pyo import *
 
-################### USER-DEFINED VARIABLES ###################
-### READY is used to manage the server behaviour depending ###
-### of the context. Set this variable to True when the     ###
-### music is ready for the radio. TITLE and ARTIST are the ###
-### infos shown by the radio player. DURATION set the      ###
-### duration of the audio file generated for the streaming.###
 ##############################################################
-READY = True                        # Set to True when ready for the radio
-TITLE = "Echo Pastorale"            # The title of the music
-ARTIST = "Aaron Krister Johnson"    # Your artist name
-DURATION = 234                      # The duration of the music in seconds
-##################### These are optional #####################
-GENRE = "Electronic Neo-Baroque"    # Kind of your music, if there is any
-DATE = 2017                         # Year of creation
-
+READY = True           # Set to True when ready for the radio
+TITLE = "Echo Pastorale"    # The title of the music
+ARTIST = "Aaron Krister Johnson"  # Your artist name
+DURATION = 234         # The duration of the music in seconds
+GENRE = "Electronic Neo-Baroque" # Kind of your music, if there is any
+DATE = 2017                      # Year of creation
 ####################### SERVER CREATION ######################
 s = Server().boot()
 

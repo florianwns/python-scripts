@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 """
 A pretty cool electronic piano sound
 
@@ -5,7 +7,7 @@ Source : https://groups.google.com/forum/#!searchin/pyo-discuss/gui|sort:date/py
 """
 
 from pyo import *
-s = Server(sr=44100, nchnls=2, buffersize=128, duplex=1).boot()
+s = Server().boot()
 
 ########## Piano ##############
 

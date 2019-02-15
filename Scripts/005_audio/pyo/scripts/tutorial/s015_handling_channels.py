@@ -1,4 +1,5 @@
-"""Gestion des canaux #1
+"""
+Gestion des canaux #1
 
 Si un objet avec plusieurs flux est passé en paramètre d'un autre objet,
 celui-ci sera de même longueur afin de traiter les flux passés

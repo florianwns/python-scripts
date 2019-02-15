@@ -1,4 +1,5 @@
-"""Les déclencheurs/triggers
+"""
+Les déclencheurs/triggers
 
 Un "trigger" est un signal audio de valeur 1 entouré de 0.
 

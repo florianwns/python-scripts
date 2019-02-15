@@ -1,4 +1,5 @@
-"""Flux multi-canaux #2
+"""
+Flux multi-canaux #2
 
 Quand on utilise des listes de différentes tailles
 pour créer des flux multi-canaux, la liste la plus longue défini

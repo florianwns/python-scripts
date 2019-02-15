@@ -1,4 +1,5 @@
-"""Traitements multiples à partir d'une seule source.
+"""
+Traitements multiples à partir d'une seule source.
 
 Cet exemple montre comment lire différents objets audio en parallèle.
 Chaque objet de traitement (c-a-d ceux qui modifient une source audio)

@@ -1,4 +1,5 @@
-"""Les constantes de PYO
+"""
+Les constantes de PYO
 """
 from pyo import *
 

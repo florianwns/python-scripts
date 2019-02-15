@@ -1,4 +1,5 @@
-"""Flux multi-canaux #1
+"""
+Flux multi-canaux #1
 
 La compréhension de listes est une technique puissante
 pour générer plusieurs flux audio à la fois.

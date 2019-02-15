@@ -1,4 +1,5 @@
-"""Gestion des canaux #3
+"""
+Gestion des canaux #3
 
 Randomisation des sorties en multicanal
 

@@ -1,4 +1,5 @@
-"""Contrôle dynamique
+"""
+Contrôle dynamique
 
 Avec pyo, il est facile d’essayer rapidement une combinaison de paramètres
 avec la fenêtre du contrôleur déjà configurée pour chaque objet.

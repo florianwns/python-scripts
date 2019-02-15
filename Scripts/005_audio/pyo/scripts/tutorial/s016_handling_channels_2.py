@@ -1,4 +1,5 @@
-"""Gestion des canaux #2
+"""
+Gestion des canaux #2
 
 Dans un environnement multicanal, nous pouvons choisir avec soin quel flux
 ira vers quel canal de sortie. Pour ce faire nous utilisons les arguments

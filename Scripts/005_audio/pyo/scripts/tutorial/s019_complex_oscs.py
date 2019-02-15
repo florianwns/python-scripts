@@ -1,4 +1,5 @@
-"""Gestion des canaux #4
+"""
+Gestion des canaux #4
 
 Si l'attribut chnl est une liste, les flux seront distribués sur le canaux
 respectivement à la liste passée en paramètre.

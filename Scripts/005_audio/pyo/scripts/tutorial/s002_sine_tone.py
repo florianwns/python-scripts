@@ -1,4 +1,5 @@
-"""Le “hello world” de PYO !
+"""
+Le 'hello world' de pyo !
 
 Permet de jouer un onde de 1000 Hz
 """

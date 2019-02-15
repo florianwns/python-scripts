@@ -1,4 +1,5 @@
-"""Fait dodo
+"""
+Fait dodo
 
 On utilise la librairie de gestion du temps
 pour modifier la fréquence d'un PyoObject

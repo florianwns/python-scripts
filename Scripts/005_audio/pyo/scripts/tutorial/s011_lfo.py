@@ -1,4 +1,5 @@
-"""Contrôler l'audio avec des lfo
+"""
+Contrôler l'audio avec des lfo
 
 Une des choses les plus importantes en informatique musicale
 est la trajectoire prise par les paramètres dans le temps.

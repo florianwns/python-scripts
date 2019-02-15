@@ -1,4 +1,5 @@
-"""Canal de sortie
+"""
+Canal de sortie
 
 Le moyen le plus simple de choisir le canal de sortie où envoyer le son
 consiste à lui donner le premier argument de la méthode out().

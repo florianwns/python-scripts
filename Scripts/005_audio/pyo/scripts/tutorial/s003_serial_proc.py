@@ -1,9 +1,9 @@
-"""Traitement audio en série
+"""
+Traitement audio en série
 
 Cet exemple montre comment chaîner des traitements audio sur une source unique.
 Chaque objet de traitement (c-a-d ceux qui modifient une source audio)
 ont un premier argument appelé "input".
-
 L'argument "input" prend l'objet audio à traiter.
 
 Notez la variable d'entrée donnée à chaque harmoniseur.

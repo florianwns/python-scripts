@@ -1,4 +1,5 @@
-"""Plage de sortie
+"""
+Plage de sortie
 
 Presque tous les objets audio ont des attributs mul et add.
 Ceux-ci sont définis à l'intérieur du PyoObject,

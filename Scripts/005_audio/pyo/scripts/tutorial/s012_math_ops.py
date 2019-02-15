@@ -1,4 +1,5 @@
-"""Les opérateurs mathématique
+"""
+Les opérateurs mathématique
 
 Ce script montre comment un PyoObject reagit quand il est utilisé
 au sein d'une expression arithmétique

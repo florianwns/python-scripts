@@ -1,4 +1,5 @@
-"""Un peu de FM
+"""
+Un peu de FM
 
 Utilisation de signaux audio à des fins de contrôle de paramètre.
 Mise en place d'une synthèse par modulation de fréquence:

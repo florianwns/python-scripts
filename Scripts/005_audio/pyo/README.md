@@ -52,8 +52,3 @@
 ### Bela (carte électronique)
 
  - https://bela.io/
-
-
-### Electronic
-
- - https://encyclotronic.com/

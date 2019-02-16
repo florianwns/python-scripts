@@ -9,7 +9,7 @@ propriétés fractales de l'attracteur.
 Il y a trois attracteurs étranges dans la bibliothèque, Rosssler, Lorenz
 et ChenLee. Chacun peut émettre un signal stéréo si l’argument stereo est True.
 
-Il est possible de créer une LFO très intéressante avec des attracteurs étranges.
+Il est possible de créer un LFO très intéressante avec des attracteurs étranges.
 La dernière partie de ce didacticiel montre l’utilisation de la sortie de Lorenz
 pour contrôler la fréquence de deux oscillateurs à onde sinusoïdale.
 """
@@ -42,7 +42,7 @@ sp = Spectrum(sel)
 
 ### Audio ###
 
-# Attracteur Lorenz avec une très basse valeur pour agir comme une LFO
+# Attracteur Lorenz avec une très basse valeur pour agir comme un LFO
 freq = Lorenz(0.005, chaos=0.7, stereo=True, mul=250, add=500)
 a = Sine(freq, mul=0.3).out()
 

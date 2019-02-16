@@ -10,6 +10,8 @@
  - https://github.com/belangeo/pyo
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
  - https://github.com/belangeo/pyo-tools
+ - https://github.com/search?q=%22from+pyo+import+*%22+NOT+%22code-block%22&type=Code
+ 
 
 ### API
 

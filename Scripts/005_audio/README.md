@@ -47,6 +47,13 @@
 
  - http://audiotools.sourceforge.net/screenshots.html
 
+## Autres
+
+### FM / DX7
+
+ - https://github.com/bwhitman/learnfm
+ - http://dxsysex.com/
+
 
 ### Electronic
 

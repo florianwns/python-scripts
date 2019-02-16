@@ -35,6 +35,11 @@
  - https://groups.google.com/forum/m/#!forum/pyo-discuss
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
 
+### PySynth
+
+ - https://github.com/mdoege/PySynth
+ - http://mdoege.github.io/PySynth/
+
 ### Nsound
  - http://nsound.sourceforge.net/index.html
 

@@ -15,7 +15,7 @@
 
  - http://ajaxsoundstudio.com/pyodoc/api/alphabetical.html
  - http://ajaxsoundstudio.com/pyodoc/api/index.html
- 
+
 ### Canal de discussion
 
   - https://groups.google.com/forum/m/#!forum/pyo-discuss
@@ -52,3 +52,8 @@
 ### Bela (carte électronique)
 
  - https://bela.io/
+
+
+### Electronic
+
+ - https://encyclotronic.com/

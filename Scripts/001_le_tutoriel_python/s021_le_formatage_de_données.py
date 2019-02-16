@@ -20,7 +20,6 @@ print(f"Nous sommes en l'an {year}, et π vaut toujours {pi}")
 print("Nous sommes en l'an {}, et π vaut toujours {}".format(year, pi))
 # ou
 # print("Nous sommes en l'an {0}, et π vaut toujours {1}".format(year, pi))
-# print("Nous sommes en l'an {0}, et π vaut toujours {1}".format(year, pi))
 
 # en utilisant la fonction repr() pour rendre compréhensible
 # les données pour l'interpréteur ou la fonction eval()

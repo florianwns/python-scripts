@@ -58,7 +58,7 @@ print(f"chaine = {chaine!s}")
 print(f"chaine = {chaine!r}")
 
 
-# on aurait aussi pu accéder au élément du dictionnaire de la manière suivante
+# on aurait aussi pu accéder aux éléments du dictionnaire de la manière suivante
 print('Accueil : {0[Accueil]:d}'.format(phones))
 print('Accueil : {Accueil:d}'.format(**phones))
 # vars() renvoie l'ensemble des variables locale sous la forme d'un dictionnaire

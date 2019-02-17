@@ -14,6 +14,7 @@
 ### Recherche de Scripts
 
  - https://github.com/search?q=%22from+pyo+import+*%22+NOT+%22code-block%22&type=Code
+ - https://github.com/topics/pyo
  - https://www.snip2code.com/Explore/Public?q=pyo&language=python&sort=0&direction=1
 
 ### API

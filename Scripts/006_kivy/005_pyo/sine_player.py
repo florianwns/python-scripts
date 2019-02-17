@@ -14,7 +14,7 @@ numSinus = 10
 class SinePlayer(App):
     def __init__(self):
         super(SinePlayer, self).__init__()
-        self.server = Server(audio='portaudio', sr=44100, nchnls=2, buffersize=512, duplex=0).boot()
+        self.server = Server().boot()
         self.server.start()
         self.freqs = [x * 100 + 100 for x in range(numSinus)]
         self.amps = [0 for x in range(numSinus)]

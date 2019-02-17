@@ -5,8 +5,7 @@ from pyo import *
 class AudioApp(App):
     def build(self):
         super(AudioApp, self).__init__()
-        self.server = Server(audio='portaudio', sr=44100, nchnls=2, buffersize=512, duplex=0).boot()
-        self.server.start()
+        self.server = Server().boot().start()
         self.slider = Slider(min=110, max=880, value=440)
         self.slider.bind(value=self.update_freq)
         self.sine = Sine(440, mul = 0.1).out()

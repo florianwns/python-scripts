@@ -10,8 +10,11 @@
  - https://github.com/belangeo/pyo
  - http://www.matthieuamiguet.ch/blog/python-music-and-black-magic
  - https://github.com/belangeo/pyo-tools
+
+### Recherche de Scripts
+
  - https://github.com/search?q=%22from+pyo+import+*%22+NOT+%22code-block%22&type=Code
- 
+ - https://www.snip2code.com/Explore/Public?q=pyo&language=python&sort=0&direction=1
 
 ### API
 

@@ -19,6 +19,7 @@ from pyo import *
 
 s = Server().boot().start()
 
+# récupère le chemin du fichier son
 folder = os.path.dirname(os.path.abspath(__file__)) + "/../../sounds/"
 path = folder + "transparent.aif"
 

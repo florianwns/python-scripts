@@ -15,7 +15,7 @@ import random, os
 s = Server().boot().start()
 
 # Banque de sons
-# récupère le dossier le chemin des fichiers sons
+# récupère le chemin des fichiers sons
 folder = os.path.dirname(os.path.abspath(__file__)) + "/../../sounds/"
 sounds = ["alum1.wav", "alum2.wav", "alum3.wav", "alum4.wav"]
 

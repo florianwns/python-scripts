@@ -16,6 +16,7 @@ mais cela coûte plus cher en ressources processeur que de charger le fichier
 son en mémoire lors du premier passage.
 """
 from pyo import *
+import os
 
 s = Server().boot().start()
 

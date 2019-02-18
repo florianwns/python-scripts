@@ -11,7 +11,7 @@ l'objet SndTable. Cet exemple charge un fichier son et le lit en boucle.
 Nous verrons plus tard des processus plus évolués ...
 """
 from pyo import *
-import random, os
+import os
 
 s = Server().boot().start()
 

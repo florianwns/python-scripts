@@ -17,7 +17,7 @@ s = Server().boot().start()
 
 # récupère le chemin des fichiers sons
 folder = os.path.dirname(os.path.abspath(__file__)) + "/../../sounds/"
-path = folder + "/transparent.aif"
+path = folder + "transparent.aif"
 
 # Charge le fichier son dans la RAM. Les points de départ et d'arrivée
 # peut être contrôlés avec les arguments "start" et "stop".

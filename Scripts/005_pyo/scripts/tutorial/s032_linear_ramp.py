@@ -46,5 +46,4 @@ sig = RCOsc(freq, sharp=0.7, mul=amp).out()
 sc = Scope(sig)
 sp = Spectrum(sig)
 
-
 s.gui(locals())

@@ -19,7 +19,7 @@ s = Server().boot().start()
 anumber = 100
 
 # Conversion d'un nombre en flux audio : vecteur de nombre à virgule (float)
-astream = Sine(anumber)
+astream = Sig(anumber)
 
 # Utiliser Print() pour afficher un flux audio
 pp = Print(astream, interval=0.1, message="Audio stream value")

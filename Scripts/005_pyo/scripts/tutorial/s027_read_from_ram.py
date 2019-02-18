@@ -30,6 +30,6 @@ t_reversed = t.copy().reverse()
 freq = t.getRate()
 
 # Lecture des fichiers stockées en mémoire
-osc1 = Osc(table=[t, t_reversed], freq=freq, phase=0, mul=0.4).out()
+osc = Osc(table=[t, t_reversed], freq=freq, phase=0, mul=0.4).out()
 
 s.gui(locals())

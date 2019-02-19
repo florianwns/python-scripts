@@ -49,7 +49,7 @@ def play_note():
     # relance l'enveloppe à son début
     adsr.play()
 
-# Appel périodique à la fonction play_note() tout les 2 secondes
+# Appel périodique de la fonction play_note() toutes les 2 secondes
 pat = Pattern(play_note, time=2).play()
 
 # Affichage

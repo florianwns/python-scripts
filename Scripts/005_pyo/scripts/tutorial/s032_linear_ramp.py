@@ -17,7 +17,6 @@ paramètre donné qui accepte un signal audio mais qui n’est pas déjà contr�
 avec un PyoObject.
 """
 from pyo import *
-import os
 
 s = Server().boot().start()
 

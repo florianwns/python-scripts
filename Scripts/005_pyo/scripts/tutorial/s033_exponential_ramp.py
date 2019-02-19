@@ -8,7 +8,6 @@ signal contenant des changements abrupts. Les coefficients croissant et
 décroissant sont contrôlés en secondes.
 """
 from pyo import *
-import os
 
 s = Server().boot().start()
 

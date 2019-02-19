@@ -11,7 +11,6 @@ L'objet Sig convertit un nombre en flux audio.
 La méthode PyoObject.get () extrait un nombre à virgule d’un flux audio.
 """
 from pyo import *
-import os
 
 s = Server().boot().start()
 

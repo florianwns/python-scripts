@@ -10,7 +10,6 @@ L'objet TableRec commence un nouvel enregistrement (enregistre jusqu'à ce que
 la table soit pleine) chaque fois que sa méthode play() est appelée.
 """
 from pyo import *
-import os
 
 s = Server().boot().start()
 

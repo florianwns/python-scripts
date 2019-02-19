@@ -1,7 +1,6 @@
 """
-Un signal trinagulaire avec l'valuateur d'expression
+Un signal triangulaire avec l'évaluateur d'expression
 
-Premier test avec oscillator de frequence
 Algorithme : http://ajaxsoundstudio.com/pyodoc/api/classes/expression.html
 """
 from pyo import *

@@ -33,6 +33,16 @@
 - http://olivier.ajaxsoundstudio.com/index_fr.html
 - https://connect.ed-diamond.com/auteur/view/71552-belanger_olivier
 
+### Articles
+
+- http://www.matthieuamiguet.ch/blog/puredata-supercollider-alternatives
+- http://www.matthieuamiguet.ch/blog/diy-guitar-effects-python
+
+### OSC
+
+- https://nexus-js.github.io/ui/
+
+
 ### Utiliser PYO dans JUCE pour créer des VST / AU
 
 - https://github.com/belangeo/pyo/tree/master/embedded/juceplugin

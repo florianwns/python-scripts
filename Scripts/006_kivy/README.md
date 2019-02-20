@@ -11,3 +11,8 @@ pip install kivy
 
 - https://github.com/kivy/kivy-ios
 - http://www.albertgao.xyz/2017/06/14/how-to-deploy-kivy-app-to-ios-and-android/
+
+
+## Ressources
+
+- https://ressources.labomedia.org/tag/kivy?do=showtag&tag=kivy

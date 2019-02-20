@@ -1,9 +1,20 @@
+"""
+Possibilité de jouer avec la pédale de sustain avec polyphonie réglable
+
+Script de 'belangeo' et modifié par mes soins, afin de mieux gérer
+le relachement de la pédale. Dans sa première version, 'belangeo' supprime
+toutes les notes au relachement de la pédale. Dans cette version, on conserve
+les notes encoré enfoncés et on ne supprime que les touches déjà relachéés.
+
+Source : https://groups.google.com/forum/#!searchin/pyo-discuss/sustain$20pedal%7Csort:date/pyo-discuss/LKd-mbiC6oo/lL_GsHM8DwAJ
+
+"""
 from pyo import *
 
 class NoteinSustain:
     """
     Classe similaire à l'objet Notein mais avec l'intégration de la pédale.
-    La pdéale de sustain est affecté au control change 64.
+    La pédale de sustain est affectée au Control Change 64.
     """
     def __init__(self, poly=16, scale=0, first=0, last=127, channel=0):
         # la pédale est relevée

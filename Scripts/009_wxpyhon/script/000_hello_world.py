@@ -12,6 +12,7 @@ class Bonjour(wx.Frame):
     Fenêtre où on affichera le message 'Bonjour tout le monde !'
     """
     def __init__(self, titre):
+        # Appel du constructeur parent
         super().__init__(None, title=titre, size=(200, 100))
 
         # A panel est une fenêtre sur laquelle on place des contrôles

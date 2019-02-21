@@ -17,11 +17,11 @@ class Bonjour(wx.Frame):
 
         # A panel est une fenêtre sur laquelle on place des contrôles
         # de la taille de son parent
-        conteneur = wx.Panel(self, size=self.GetClientSize())
-
+        panel = wx.Panel(self, size=self.GetClientSize())
+        
         # Texte statique centré
-        etiquette = wx.StaticText(conteneur, label="Bonjour tout le monde !")
-        etiquette.Centre()
+        text = wx.StaticText(panel, label="Bonjour tout le monde !")
+        text.Centre()
 
 class HelloWorldApp(wx.App):
     def OnInit(self):

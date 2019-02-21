@@ -1,7 +1,9 @@
-# Installation d'audiostream
+# Installation de pyo
 
 # Ressources :
-# - https://github.com/kivy/audiostream
+# http://ajaxsoundstudio.com/pyodoc/compiling.html
 
-brew install sdl sdl_mixer
-sudo python setup.py install
+brew install liblo libsndfile portaudio portmidi --universal
+git clone https://github.com/belangeo/pyo.git
+cd pyo
+python setup.py install --use-coreaudio --use-double

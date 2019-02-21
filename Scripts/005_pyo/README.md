@@ -49,6 +49,8 @@
 - https://github.com/JVanBuskirk/pyoAddSynth
 - https://github.com/JVanBuskirk/PyoFilter
 - https://github.com/JVanBuskirk/PluckSynth
+- https://www.juce.com/tutorials
+- http://www.redwoodaudio.net/Tutorials/juce_for_vst_development__intro3.html
 
 ### Les softwares basés sur PYO
 

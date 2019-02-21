@@ -46,6 +46,9 @@
 ### Utiliser PYO dans JUCE pour créer des VST / AU
 
 - https://github.com/belangeo/pyo/tree/master/embedded/juceplugin
+- https://github.com/JVanBuskirk/pyoAddSynth
+- https://github.com/JVanBuskirk/PyoFilter
+- https://github.com/JVanBuskirk/PluckSynth
 
 ### Les softwares basés sur PYO
 

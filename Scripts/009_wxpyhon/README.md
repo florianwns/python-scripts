@@ -10,7 +10,7 @@
 - https://docs.wxpython.org/
 - https://alain72.developpez.com/tutos/wxPython/
 - https://www.science-emergence.com/Articles/Tutoriel-wxPython/
-
+- https://wiki.wxpython.org/AnotherTutorial
 
 ### WxFormBuilder
 

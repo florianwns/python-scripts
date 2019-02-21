@@ -4,6 +4,8 @@
 Les Customs Widgets
 
 ou comment dessiner ses propres composants
+
+plus d'infos ici : https://wiki.wxwidgets.org/Painting_your_custom_control
 """
 import wx
 

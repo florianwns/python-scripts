@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Un signal triangulaire avec l'évaluateur d'expression
 

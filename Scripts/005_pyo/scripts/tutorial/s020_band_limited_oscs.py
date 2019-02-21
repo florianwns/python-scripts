@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Oscillateurs dont le spectre est maintenu sous la fréquence de Nyquist
 cf : https://fr.wikipedia.org/wiki/Fr%C3%A9quence_de_Nyquist

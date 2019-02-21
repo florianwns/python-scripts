@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Enregistrement de flux audio individuels sur le disque.
 L'objet 'Record' peut être utilisé pour enregistrer des flux audio spécifiques

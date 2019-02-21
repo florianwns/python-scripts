@@ -1,4 +1,7 @@
-"""Small example OSC server
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Small example OSC server
 
 This program listen one adresse on one port
 and prints some information about received packets.

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Portamento exponentiel avec temps de montée et de descente.
 

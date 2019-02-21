@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Synthèse de modulation de fréquence.
 Il existe deux objets dans la bibliothèque qui implémentent des algorithmes

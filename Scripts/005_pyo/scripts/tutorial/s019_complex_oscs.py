@@ -1,4 +1,7 @@
-"""Oscillateurs à spectres complexes
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Oscillateurs à spectres complexes
 
 Ce tutoriel présente quatre objets de la bibliothèque qui sont utiles pour
 générer des spectres complexes par synthèse.

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Enregistrement de son en direct dans la RAM.
 En enregistrant un flux de son dans la RAM, il est possible de réutiliser

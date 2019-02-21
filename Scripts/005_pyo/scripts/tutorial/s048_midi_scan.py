@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Scan des données MIDI via la méthode RawMidi() qui permet de capter les données
 brutes.

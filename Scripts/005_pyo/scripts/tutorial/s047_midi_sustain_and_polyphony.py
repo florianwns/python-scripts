@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Possibilité de jouer avec la pédale de sustain avec polyphonie réglable
 

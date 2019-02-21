@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# encoding: utf-8
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Le 'hello world' de WxPython
 
@@ -18,7 +18,7 @@ class Bonjour(wx.Frame):
         # A panel est une fenêtre sur laquelle on place des contrôles
         # de la taille de son parent
         panel = wx.Panel(self, size=self.GetClientSize())
-        
+
         # Texte statique centré
         text = wx.StaticText(panel, label="Bonjour tout le monde !")
         text.Centre()

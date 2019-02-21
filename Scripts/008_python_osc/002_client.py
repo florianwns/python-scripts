@@ -1,4 +1,7 @@
-"""Small example OSC client
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Small example OSC client
 
 This program sends 10 random values between 0.0 and 1.0 to the /filter address,
 waiting for 1 seconds between each value.

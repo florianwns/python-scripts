@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Récupérer l'évènement de fin de fichier depuis l'objet SfPlayer.
 

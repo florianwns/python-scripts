@@ -24,11 +24,8 @@ class InteractionFrame(wx.Frame):
 
 class InteractionApp(wx.App):
     def OnInit(self):
-        # Creation de la fenêtre
         frame = InteractionFrame(title='Interaction', size=(250, 200))
         frame.Show()
-
-        # Retourne Vrai pour signaler que tout s'est bien passé
         return True
 
 if __name__ == '__main__':

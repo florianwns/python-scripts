@@ -1,12 +1,15 @@
-# coding:utf-8
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Test de la camera avec OpenCV
+
+pip install opencv-python
+"""
 from kivy.app import App
 from kivy.uix.image import Image
 from kivy.clock import Clock
 from kivy.graphics.texture import Texture
 import cv2
-
-
-
 
 class KivyCvCamera(Image):
     def __init__(self, capture, fps, **kwargs):

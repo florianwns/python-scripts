@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Graph garden app
+"""
 from math import sin
 from kivy.garden.graph import Graph, MeshLinePlot
 from kivy.app import App

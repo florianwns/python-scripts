@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Kivy et Pyo
+"""
 from kivy.app import App
 from kivy.uix.slider import Slider
 from pyo import *

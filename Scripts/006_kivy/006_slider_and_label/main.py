@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Un simple slider et un label qui se met à jour
+"""
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.slider import Slider

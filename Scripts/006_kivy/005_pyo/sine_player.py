@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Kivy et Pyo
+"""
 import kivy
 kivy.require('1.0.7')
 

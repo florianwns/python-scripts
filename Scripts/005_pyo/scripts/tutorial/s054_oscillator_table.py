@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Créer une Table d'ondes personnalisée
+
+Pour tester le script, taper dans l'interpreteur pyo :
+    osc.type = 1
 """
 
 from pyo import *

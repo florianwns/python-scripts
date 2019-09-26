@@ -6,7 +6,9 @@ from kivy.uix.label import Label
 class HelloWindow(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.add_widget(Label(text='Hello World'))
+
+        hello = Label(text='Hello World')
+        self.add_widget(hello)
 
 
 class HelloApp(App):

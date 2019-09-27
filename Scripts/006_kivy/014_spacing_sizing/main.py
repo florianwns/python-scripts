@@ -10,15 +10,8 @@ class SpacingSizingWindow(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.spacing = 10
-
-        btn1 = Button(text='1',size_hint=(None, None),size=(150,40))
-        btn2 = Button(text='2',size_hint_y=None,height=50)
-        btn3 = Button(text='3')
-
-        l = [btn1, btn2, btn3]
-        for e in l:
-            self.add_widget(e)
+    def set_title(self):
+        self.ids.title_lbl.text = 'Button clicked'
 
 
 class SpacingSizingApp(App):

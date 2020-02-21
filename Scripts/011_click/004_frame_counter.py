@@ -16,7 +16,7 @@ import cv2
 
 
 class VideoStream(click.ParamType):
-    """Declares a parameter to be a video for reading.
+    """Declares a parameter type to be a video for reading.
     The video is automatically closed once the context tears down.
     """
     name = 'videostream'

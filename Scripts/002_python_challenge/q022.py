@@ -12,8 +12,10 @@ or maybe white.gif would be more bright
 from PIL import Image, ImageDraw
 from random import randint
 
+
 def random_color():
     return (randint(150, 255), randint(150, 255), randint(150, 255), 255)
+
 
 img = Image.open("./assets/white.gif")
 new_img = Image.new("RGB", (500, 200))
@@ -34,4 +36,4 @@ for i in range(img.n_frames):
     cy += dy
     draw.point([cx, cy], fill=color)
 
-new_img.show() # Bonus
+new_img.show()  # Bonus
